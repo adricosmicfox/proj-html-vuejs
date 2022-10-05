@@ -1,5 +1,5 @@
 <template>
-    <section class="am-jumbotron d-flex">
+    <section class="am-jumbotron d-flex justify-content-around align-items-center">
 
         <div>
             <h1>Complete Your Dreams in JavaS Programming</h1>
