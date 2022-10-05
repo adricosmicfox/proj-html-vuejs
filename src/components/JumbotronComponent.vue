@@ -1,5 +1,5 @@
 <template>
-    <div class="am-jumbotron d-flex">
+    <section class="am-jumbotron d-flex">
 
         <div>
             <h1>Complete Your Dreams in JavaS Programming</h1>
@@ -9,9 +9,10 @@
         </div>
 
         <div> 
-            <img src="../assets/home-5-hero-image.png" alt="man writing on computer"> </div>
+            <img src="../assets/home-5-hero-image.png" alt="man writing on computer"> 
         </div>
-    
+        
+    </section>
   </template>
   
   
