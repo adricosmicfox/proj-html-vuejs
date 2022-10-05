@@ -1,6 +1,7 @@
 <template>
   <div id="app">
     <HeaderComponent/>
+    <JumbotronComponent/>
     <BuildDreamComponent/>
     <CoursesComponent/>
     <LearningComponent/>
@@ -19,6 +20,7 @@ import LearningComponent from './components/LearningComponent.vue';
 import EventsComponent from './components/EventsComponent.vue';
 import OpinionComponent from './components/OpinionComponent.vue';
 import FooterComponent from './components/FooterComponent.vue';
+import JumbotronComponent from './components/JumbotronComponent.vue';
 
 export default {
   name: 'App',
@@ -29,13 +31,17 @@ export default {
     LearningComponent,
     EventsComponent,
     OpinionComponent,
-    FooterComponent
+    FooterComponent,
+    JumbotronComponent
 }
 }
 </script>
 
 <style lang="scss">
 #app {
-
-}
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  
+  }
 </style>
