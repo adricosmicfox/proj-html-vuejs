@@ -7,7 +7,7 @@
       </div>
       
 
-      <div class="d-flex flex-wrap">
+      <div class="d-flex flex-wrap justify-content-center">
 
         <div class="am-card d-flex flex-column justify-content-between">
           <img class="am-photo" src="../assets/course-02-480x298.jpg" alt="">
@@ -98,9 +98,12 @@
             </div>
           </div>
         </div>
-
-
       </div>
+
+    <div class="d-flex justify-content-center">
+      <button> View all courses</button>
+    </div>
+          
 
     </div>
   </section>
