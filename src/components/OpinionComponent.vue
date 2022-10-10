@@ -29,7 +29,7 @@
       </div>  
     </div>
 
-    <div class="d-flex flex-column align-items-center am-title mt-5">
+    <div class="am-certification-box d-flex flex-column align-items-center am-title">
       <h4>Start today for getting Online Certification</h4>
       <h1 class="mt-1">You can be your own guiding star with our help!</h1>
       <button class="mt-4">Get started now</button>
@@ -53,9 +53,13 @@ name: 'OpinionComponent'
 section{
     padding-left: 17rem;
     padding-right: 17rem;
+    
     background-color: #F8F8F8;
 }
 
+.am-certification-box{
+  margin-top: 5rem;
+}
 .am-title{
   margin-bottom: 8rem;
 }

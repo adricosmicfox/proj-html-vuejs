@@ -12,7 +12,7 @@
         <!-- ***EVENT*** -->
         <div class="am-event d-flex p-4 justify-content-between">
           <div class="d-flex flex-column align-self-center"> 
-            <h6>Texas,US</h6>
+            <h6><img src="../assets/geo-alt-fill.svg" alt="">Texas,US</h6>
             <h5>Storytelling Workshop</h5>
           </div>
          
@@ -26,7 +26,7 @@
         <!-- ***EVENT*** -->
         <div class="am-event d-flex p-4 justify-content-between">
           <div class="d-flex flex-column align-self-center"> 
-            <h6>Texas,US</h6>
+            <h6><img src="../assets/geo-alt-fill.svg" alt="">Texas,US</h6>
             <h5>Storytelling Workshop</h5>
           </div>
          
@@ -40,7 +40,7 @@
             <!-- ***EVENT*** -->
             <div class="am-event d-flex p-4 justify-content-between">
           <div class="d-flex flex-column align-self-center"> 
-            <h6>Texas,US</h6>
+            <h6><img src="../assets/geo-alt-fill.svg" alt="">Texas,US</h6>
             <h5>Storytelling Workshop</h5>
           </div>
          
@@ -54,7 +54,7 @@
         <!-- ***EVENT*** -->
         <div class="am-event d-flex p-4 justify-content-between">
           <div class="d-flex flex-column align-self-center"> 
-            <h6>Texas,US</h6>
+            <h6><img src="../assets/geo-alt-fill.svg" alt="">Texas,US</h6>
             <h5>Storytelling Workshop</h5>
           </div>
          
@@ -68,7 +68,7 @@
             <!-- ***EVENT*** -->
             <div class="am-event d-flex p-4 justify-content-between">
           <div class="d-flex flex-column align-self-center"> 
-            <h6>Texas,US</h6>
+            <h6><img src="../assets/geo-alt-fill.svg" alt=""> Texas,US</h6>
             <h5>Storytelling Workshop</h5>
           </div>
          
@@ -82,7 +82,7 @@
         <!-- ***EVENT*** -->
         <div class="am-event d-flex p-4 justify-content-between">
           <div class="d-flex flex-column align-self-center"> 
-            <h6>Texas,US</h6>
+            <h6><img src="../assets/geo-alt-fill.svg" alt="">Texas,US</h6>
             <h5>Storytelling Workshop</h5>
           </div>
          
@@ -94,8 +94,8 @@
         </div>
       </div>
 
-      <div class="d-flex justify-content-center"> 
-        <h6>Excited about our event? View all events</h6>
+      <div class="d-flex justify-content-center mt-5"> 
+        <h6>Excited about our event? View all events <img src="../assets/arrow-right.svg" alt=""> </h6>
       </div>
         
     
@@ -117,6 +117,10 @@ name: 'EventsComponent'
 section{
     padding-left: 17rem;
     padding-right: 17rem;
+    padding-bottom: 10rem;
+    background-image: url(../assets/wave3.svg);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
 }
 
 .am-event{
@@ -133,6 +137,15 @@ button{
   padding: .3rem;
   width: 10rem;
   font-weight: 600;
+}
+
+h6{
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+img{
+  margin-right: .3rem;
 }
 
 </style>
