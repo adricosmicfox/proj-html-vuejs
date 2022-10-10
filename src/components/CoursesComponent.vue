@@ -1,13 +1,13 @@
 <template>
   <section>
     <div>
-      <div class="d-flex flex-column align-items-center">
+      <div class="d-flex flex-column align-items-center mb-5">
         <h6>CHOOSE WHERE YOU'D LIKE TO BEGIN</h6>
         <H1>Latest featured Courses</H1>
       </div>
       
 
-      <div class="d-flex flex-wrap justify-content-between">
+      <div class="d-flex flex-wrap justify-content-between mb-5">
 
         <div class="am-card d-flex flex-column justify-content-between">
           <img class="am-photo" src="../assets/course-02-480x298.jpg" alt="">
@@ -100,12 +100,13 @@
         </div>
       </div>
 
-    <div class="d-flex justify-content-center">
+    <div class="d-flex justify-content-center mb-5">
       <button> View all courses</button>
     </div>
           
 
     </div>
+    
   </section>
 </template>
 
@@ -124,6 +125,11 @@ name: 'CoursesComponent'
 section{
     padding-left: 17rem;
     padding-right: 17rem;
+    background: rgb(244,244,244);
+    background: linear-gradient(0deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 100%);
+    padding-top: 5rem;
+    border-bottom-right-radius: 90% (200px);
+    border-bottom-left-radius: 90% (200px);
 }
 
 .am-card{
@@ -149,5 +155,6 @@ button{
   padding: .3rem;
   width: 10rem;
   font-weight: 600;
+  margin-bottom: 5rem;
 }
 </style>

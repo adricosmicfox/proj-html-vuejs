@@ -48,11 +48,6 @@ export default {
   font-family: 'Poppins', sans-serif;
     }
 
-section{
-  padding-top: 2rem;
-  padding-bottom: 2rem;
-}
-
 h1{
   font-weight: 600 !important;
 }

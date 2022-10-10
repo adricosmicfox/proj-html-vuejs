@@ -36,6 +36,7 @@
     background-image: url(../assets/wave.svg);
     background-repeat: no-repeat;
     background-position-y: bottom;
+    margin-bottom: 5rem;
     }
 
   .am-jumbo-title{

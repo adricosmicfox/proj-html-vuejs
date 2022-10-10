@@ -51,7 +51,7 @@ name: 'LearningComponent'
 section{
     padding-left: 17rem;
     padding-right: 17rem;
-}
+  }
 
 button{
   color: white;
