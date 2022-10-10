@@ -2,7 +2,7 @@
     <section> 
     <div class="d-flex flex-column align-items-center mt-5">
       <h6>START LEARNING CODING LANGUAGES</h6>
-      <H1 class="mt-3 mb-5">Build Your Dream TODAY</H1>
+      <H1 class="mt-3 mb-5">Build Your Dream <span class="am-highlight-text">TODAY</span></H1>
     </div>
     
     <div class="am-box-padding d-flex mt-5 justify-content-between"> 
@@ -42,7 +42,7 @@
       </div>
 
       <div class="am-stunning-box">
-        <h1>Construct A Stunning Career Perspective</h1>
+        <h1>Construct A <span class="am-highlight-text">Stunning</span>  Career Perspective</h1>
 
         <div class="am-foldable-box d-flex align-items-center">
           <h5>Multiple Platforms Supported for Teaching & Studying</h5>
@@ -120,10 +120,13 @@ name: 'BuildDreamComponent'
   background-color: #FAF8F6;
   height: 13rem;
   margin-top: 5rem;
-
+  
+  h1{
+    color: $highlight;
+  }
+  
   div{
     text-align: center;
-
   }
 }
 

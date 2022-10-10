@@ -16,16 +16,26 @@ $darkText: #69697C;
 }
 
 section {
-    padding-bottom: 5rem !important;
-    padding-top: 5rem !important;
-    padding-left: 17rem !important;
-    padding-right: 17rem !important;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+    padding-left: 17rem;
+    padding-right: 17rem;
+}
+
+.am-highlight-text {
+    color: $highlight;
+    font-weight: 400;
 }
 
 h1 {
     font-weight: 600;
     color: $primary;
 }
+
+h4 {
+    color: $primary;
+}
+
 
 h5 {
     color: $darkText;
@@ -38,7 +48,6 @@ h6 {
 p {
     color: $lightText;
 }
-
 
 button {
     color: white;

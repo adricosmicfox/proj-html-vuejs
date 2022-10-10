@@ -3,7 +3,7 @@
      
     <div class="d-flex flex-column align-items-center am-title">
       <h6>PEOPLE ARE PRAISING MAXCOACH</h6>
-      <h1>What make they love us?</h1>
+      <h1>What make they <span class="am-highlight-text">love us?</span></h1>
     </div>
 
     <div class="d-flex justify-content-between">
@@ -30,7 +30,7 @@
     </div>
 
     <div class="am-certification-box d-flex flex-column align-items-center am-title">
-      <h4>Start today for getting Online Certification</h4>
+      <h4>Start today for getting <span class="am-highlight-text">Online Certification</span></h4>
       <h1 class="mt-1">You can be your own guiding star with our help!</h1>
       <button class="mt-4">Get started now</button>
     </div>

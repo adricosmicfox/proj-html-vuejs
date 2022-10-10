@@ -3,7 +3,7 @@
     <div>
       <div class="d-flex flex-column align-items-center mb-5">
         <h6>CHOOSE WHERE YOU'D LIKE TO BEGIN</h6>
-        <H1>Latest featured Courses</H1>
+        <H1>Latest featured <span class="am-highlight-text">Courses</span> </H1>
       </div>
       
 

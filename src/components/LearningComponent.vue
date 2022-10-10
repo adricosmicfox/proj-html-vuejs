@@ -3,7 +3,7 @@
   <div class="d-flex justify-content-around align-items-center">
     <div class="am-list-box">
       <h6 class="mb-4">WHY HESITATE TO REGISTER</h6>
-      <h1 class="mb-4">Learn At Your Own Pace</h1>
+      <h1 class="mb-4">Learn At Your Own <span class="am-highlight-text">Pace</span></h1>
       <ul class="mb-4">
         <li class="mb-3">Select & customize courses to your preferences</li>
         <li class="mb-3">Change the tutor and make arrangements</li>
@@ -26,7 +26,7 @@
 
     <div class="am-list-box">
       <h6  class="mb-4">WHAT ARE YOU LOOKING FOR?</h6>
-      <h1  class="mb-4">Learn on your mobile anytime!</h1>
+      <h1  class="mb-4">Learn on your <span class="am-highlight-text">mobile</span> anytime!</h1>
       <p  class="mb-4">Save lessons for later and revise or write notes at any time and on multiple devices on your way. Nver interfere with activities of enjoyment or other precious moments.</p>
       <button> Download free E-Book</button>
     </div>

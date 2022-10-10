@@ -3,7 +3,7 @@
      <div class="d-flex justify-content-around align-items-center">
         <div class="d-flex flex-column align-items-center">
           <h6>GET IN CONTACT NOW</h6>
-          <h1>Upcoming Events</h1>
+          <h1>Upcoming <span class="am-highlight-text">Events</span></h1>
         </div>
       </div>
 

@@ -49,6 +49,7 @@ header{
     padding-left: 17rem;
     padding-right: 17rem;
     position: fixed;
+    z-index: 999;
 
     img{
         width: 12rem;
