@@ -38,6 +38,7 @@ header{
     background-color: #E9E6E3;
     padding-left: 17rem;
     padding-right: 17rem;
+    position: fixed;
 
     img{
         width: 12rem;

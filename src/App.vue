@@ -42,6 +42,10 @@ export default {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  
-  }
+    }
+
+section{
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
 </style>

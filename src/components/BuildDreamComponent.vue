@@ -125,5 +125,14 @@ section{
   }
 }
 
+button{
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: .3rem;
+  width: 10rem;
+  font-weight: 600;
+}
+
 
 </style>

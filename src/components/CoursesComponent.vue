@@ -7,7 +7,7 @@
       </div>
       
 
-      <div class="d-flex flex-wrap justify-content-center">
+      <div class="d-flex flex-wrap justify-content-between">
 
         <div class="am-card d-flex flex-column justify-content-between">
           <img class="am-photo" src="../assets/course-02-480x298.jpg" alt="">
@@ -140,5 +140,14 @@ section{
 .am-little-avatar{
   border-radius: 50px;
   width: 3rem;
+}
+
+button{
+  color: white;
+  border: none;
+  border-radius: 7px;
+  padding: .3rem;
+  width: 10rem;
+  font-weight: 600;
 }
 </style>
