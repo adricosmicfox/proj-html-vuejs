@@ -59,4 +59,10 @@ button {
     font-weight: 600;
     padding-left: 1rem;
     padding-right: 1rem;
+
+    &:hover {
+        background-color: #3F3A64;
+        transition: .5s all;
+        transform: translatex(3px);
+    }
 }
