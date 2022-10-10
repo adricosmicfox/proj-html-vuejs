@@ -94,10 +94,8 @@ name: 'BuildDreamComponent'
 
 <!-- *****CSS STYLE***** -->
 <style lang="scss" scoped>
-.am-box-padding{
-  padding-left: 17rem;
-  padding-right: 17rem;
-}
+@import "../style/common.scss";
+
 .am-small-box{
   width: 23% ;
 }
@@ -117,31 +115,16 @@ name: 'BuildDreamComponent'
     margin-bottom: 0;
   }
  }
-
+ 
  .am-numbers-box{
   background-color: #FAF8F6;
   height: 13rem;
-  padding-left: 17rem;
-  padding-right: 17rem;
   margin-top: 5rem;
 
   div{
     text-align: center;
 
-    h1{
-     color: #20AD96;
-        }
   }
 }
-
-button{
-  color: white;
-  border: none;
-  border-radius: 7px;
-  padding: .3rem;
-  width: 10rem;
-  font-weight: 600;
-}
-
 
 </style>

@@ -56,10 +56,8 @@ name: 'FooterComponent'
 
 <!-- *****CSS STYLE***** -->
 <style lang="scss" scoped>
-section{
-    padding-left: 17rem;
-    padding-right: 17rem;
-}
+@import "../style/common.scss";
+
 .am-informations{
   width: 30rem;
 }

@@ -48,11 +48,7 @@ name: 'LearningComponent'
 
 <!-- *****CSS STYLE***** -->
 <style lang="scss" scoped>
-section{
-    padding-left: 17rem;
-    padding-right: 17rem;
-    padding-bottom: 5rem;
-  }
+@import "../style/common.scss";
 
 ul{
   list-style:url(../assets/check.svg) ;
@@ -62,12 +58,5 @@ ul{
   width: 30rem;
 }
 
-button{
-  color: white;
-  border: none;
-  border-radius: 7px;
-  padding: .3rem;
-  width: 10rem;
-  font-weight: 600;
-}
+
 </style>

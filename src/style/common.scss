@@ -1,0 +1,53 @@
+// ColorPalette
+$primary: #3F3A64;
+$highlight: #20AD96;
+$lightBG: #E9E6E3;
+$darkBG: #DEDBD9;
+$lightText: #7a7498;
+$darkText: #69697C;
+
+
+// common settings
+#app {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+section {
+    padding-bottom: 5rem !important;
+    padding-top: 5rem !important;
+    padding-left: 17rem !important;
+    padding-right: 17rem !important;
+}
+
+h1 {
+    font-weight: 600;
+    color: $primary;
+}
+
+h5 {
+    color: $darkText;
+}
+
+h6 {
+    color: $lightText;
+}
+
+p {
+    color: $lightText;
+}
+
+
+button {
+    color: white;
+    background-color: $highlight;
+    border: none;
+    border-radius: 10px;
+    padding: .3rem;
+    height: 3.2rem;
+    font-weight: 600;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}

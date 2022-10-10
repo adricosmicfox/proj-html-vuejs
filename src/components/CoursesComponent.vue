@@ -122,14 +122,13 @@ name: 'CoursesComponent'
 
 <!-- *****CSS STYLE***** -->
 <style lang="scss" scoped>
+@import "../style/common.scss";
+
 section{
-    padding-left: 17rem;
-    padding-right: 17rem;
-    background: rgb(244,244,244);
-    background: linear-gradient(0deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 100%);
-    padding-top: 5rem;
-    border-bottom-right-radius: 90% (200px);
-    border-bottom-left-radius: 90% (200px);
+   background: rgb(244,244,244);
+   background: linear-gradient(0deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 100%);
+   border-bottom-right-radius: 90% (200px);
+   border-bottom-left-radius: 90% (200px);
 }
 
 .am-card{
@@ -148,13 +147,5 @@ section{
   width: 3rem;
 }
 
-button{
-  color: white;
-  border: none;
-  border-radius: 7px;
-  padding: .3rem;
-  width: 10rem;
-  font-weight: 600;
-  margin-bottom: 5rem;
-}
+
 </style>

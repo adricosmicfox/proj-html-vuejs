@@ -5,7 +5,7 @@
           
             <h1 class="mb-4">Complete Your Dreams in JavaS Programming</h1>
             <p class="mb-4">Learn any coding program in distance and for a reasonable fee. You don't have to struggle alone, you've got our assistance and help.</p>
-            <button class=""> Download free E-book</button>
+            <button>Download free E-book</button>
 
         </div>
 
@@ -28,33 +28,21 @@
   
   <!-- *****CSS STYLE***** -->
   <style lang="scss" scoped>
+  @import "../style/common.scss";
   .am-jumbotron{
     background-color: #E9E6E3;
     height: 52rem;
-    padding-left: 17rem;
-    padding-right: 17rem;
     background-image: url(../assets/wave.svg);
     background-repeat: no-repeat;
     background-position-y: bottom;
-    margin-bottom: 5rem;
-    }
+  }
 
   .am-jumbo-title{
     width: 23rem;
   }
 
-  button{
-  color: white;
-  border: none;
-  border-radius: 7px;
-  padding: .3rem;
-  width: 17rem;
-  height: 3.2rem;
-  font-weight: 600;
-}
-
-p{
+ p{
   line-height: 1.7rem;
-}
+  }
 
   </style>

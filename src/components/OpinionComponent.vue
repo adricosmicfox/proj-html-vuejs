@@ -50,11 +50,10 @@ name: 'OpinionComponent'
 
 <!-- *****CSS STYLE***** -->
 <style lang="scss" scoped>
+@import "../style/common.scss";
+
 section{
-    padding-left: 17rem;
-    padding-right: 17rem;
-    
-    background-color: #F8F8F8;
+  background-color: #F8F8F8;
 }
 
 .am-certification-box{
@@ -62,15 +61,7 @@ section{
 }
 .am-title{
   margin-bottom: 8rem;
-}
-
-button{
-  color: white;
-  border: none;
-  border-radius: 7px;
-  padding: .3rem;
-  width: 10rem;
-  font-weight: 600;
+ 
 }
 
 .am-card{

@@ -40,6 +40,8 @@ name: 'HeaderComponent'
 
 <!-- *****CSS STYLE***** -->
 <style lang="scss" scoped>
+@import "../style/common.scss";
+
 header{
     width: 100%;
     height: 5rem;
@@ -59,6 +61,7 @@ header{
     }
 
     li{
+        color: $primary;
         
     }
 
