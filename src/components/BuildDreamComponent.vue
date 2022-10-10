@@ -1,4 +1,5 @@
 <template>
+  <main> 
     <section> 
     <div class="d-flex flex-column align-items-center mt-5">
       <h6>START LEARNING CODING LANGUAGES</h6>
@@ -58,7 +59,9 @@
       </div>
     </div>
 
-    <div class="am-numbers-box d-flex justify-content-around align-items-center">
+    
+  </section>
+  <div class="am-numbers-box d-flex justify-content-around align-items-center">
       <div>
         <h1>1.926</h1>
         <h6>FINISHED SESSIONS</h6>
@@ -79,7 +82,8 @@
         <h6>SATISFACTION RATE</h6>
       </div>
     </div>
-  </section>
+</main>
+  
 </template>
 
 
@@ -102,7 +106,7 @@ name: 'BuildDreamComponent'
 
 .am-stunning-box{
   width: 35rem;
-}
+ }
 .am-foldable-box{
   margin-top: 2rem;
   width: 40rem;
@@ -120,6 +124,9 @@ name: 'BuildDreamComponent'
   background-color: #FAF8F6;
   height: 13rem;
   margin-top: 5rem;
+  padding-left: 17rem;
+  padding-right:17rem;
+ 
   
   h1{
     color: $highlight;

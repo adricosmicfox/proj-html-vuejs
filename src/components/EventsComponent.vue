@@ -8,20 +8,26 @@
       </div>
 
       
-      <div class="d-flex justify-content-between flex-wrap">
+      <div class="d-flex justify-content-between flex-wrap gap-3">
         <!-- ***EVENT*** -->
-        <div class="am-event d-flex p-4 justify-content-between">
-          <div class="d-flex flex-column align-self-center"> 
-            <h6><img src="../assets/geo-alt-fill.svg" alt="">Texas,US</h6>
-            <h5>Storytelling Workshop</h5>
+        <div class="am-event d-flex p-4 justify-content-between" v-for="(card, index) in eventsArray" :key="index">
+          <div class="d-flex flex-column align-self-center w-50"> 
+            <h6><img src="../assets/geo-alt-fill.svg" alt="">{{card.location}}</h6>
+            <h5>{{card.course}}</h5>
           </div>
          
           <div class="d-flex flex-column align-items-center">
-            <h1>{{eventsArray.day}}</h1>
-            <h5>NOV</h5>
+            <h1>{{card.day}}</h1>
+            <h5>{{card.month}}</h5>
             <button> Get ticket</button>
           </div>
         </div>
+      </div>
+
+      <div class="d-flex justify-content-around align-items-center mt-5">
+        <div class="d-flex flex-column align-items-center">
+          <h6>Ecited about our event? <span class="am-highlight-text"> View all events?</span></h6>
+          </div>
       </div>
         
     
@@ -93,13 +99,14 @@ section{
   background-image: url(../assets/wave3.svg);
   background-repeat: no-repeat;
   background-position-y: bottom;
+  padding-bottom: 15rem;
 }
 
 .am-event{
+  width: 49%;
   margin-top: 2rem;
-  width: 37.4rem;
   background-color: #F8F8F8;
-  border-radius: 4px;
+  border-radius: 7px;
 }
 
 h6{
