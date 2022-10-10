@@ -1,14 +1,15 @@
 <template>
     <section class="am-jumbotron d-flex justify-content-around align-items-center">
 
-        <div>
-            <h1>Complete Your Dreams in JavaS Programming</h1>
-            <p>Learn any coding program in distance and for a reasonable fee. You don't have to struggle alone, you've got our assistance and help.</p>
+        <div class="am-jumbo-title mt-5">
+          
+            <h1 class="mb-4">Complete Your Dreams in JavaS Programming</h1>
+            <p class="mb-4">Learn any coding program in distance and for a reasonable fee. You don't have to struggle alone, you've got our assistance and help.</p>
             <button class=""> Download free E-book</button>
 
         </div>
 
-        <div> 
+        <div class="mt-5"> 
             <img src="../assets/home-5-hero-image.png" alt="man writing on computer"> 
         </div>
         
@@ -29,20 +30,30 @@
   <style lang="scss" scoped>
   .am-jumbotron{
     background-color: #E9E6E3;
-    height: 45rem;
+    height: 52rem;
     padding-left: 17rem;
     padding-right: 17rem;
-    padding-top: 12rem;
+    background-image: url(../assets/wave.svg);
+    background-repeat: no-repeat;
+    background-position-y: bottom;
     }
+
+  .am-jumbo-title{
+    width: 23rem;
+  }
 
   button{
   color: white;
   border: none;
   border-radius: 7px;
   padding: .3rem;
-  width: 10rem;
+  width: 17rem;
+  height: 3.2rem;
   font-weight: 600;
 }
 
+p{
+  line-height: 1.7rem;
+}
 
   </style>

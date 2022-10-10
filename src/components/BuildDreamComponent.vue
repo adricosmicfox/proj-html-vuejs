@@ -121,7 +121,7 @@ section{
 
     h1{
      color: #20AD96;
-    }
+        }
   }
 }
 
